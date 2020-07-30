@@ -56,10 +56,8 @@ class MealItem extends StatelessWidget {
     );
 
     if (result != null) {
-      print(result);
+      removeItem(result);
     }
-
-    print(result);
   }
 
   @override
